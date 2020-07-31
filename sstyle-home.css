@@ -1,0 +1,69 @@
+
+body{
+    background: lightsteelblue;
+} 
+h1{
+    text-align: center;
+    color: #000000;
+    height: 24px;
+    width: 100%;
+}
+#banner{
+    width: 102%;
+    height: 362px;
+}
+h2{
+    text-align: center;
+    color: #000000;
+    height: 24px;
+    width: 100%;
+}
+
+p{
+text-align: center;
+}
+#terceiro{
+    font-size:20px;
+}
+
+em strong{
+    color: red
+
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    margin-right: auto;
+}
+
+.item{
+    font-style: italic;
+color :grey
+}
+
+.tipos {
+    background:lightyellow;
+}
+.Principais {
+text-align: center;
+    font-size: 30px; 
+    border:  2px solid #000000;
+}x  
+.Principais:hover {
+    border-color:blue ;
+    font-size: 35px;
+}
+
+.imagem2{
+    width: 391px;
+    height: 494px;
+}
+
+
+.imagem3{
+    width: 102%;
+    height: 362px;
+}
+
