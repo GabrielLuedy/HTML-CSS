@@ -1,9 +1,12 @@
+
 header {
     background: #bbbbbb;
      padding: 20px 0;
     
 }
-
+html{
+    background:linear-gradient(blue,yellow,red) ;
+}
 .caixa{
     position: relative;
    width: 940px; 
@@ -90,7 +93,7 @@ footer{
     background:url(imeg/footerr-branco.png);
     padding: 80px;
 }
-footer p {
+footer legend {
     text-align: center;
     font-size: 30px;
 }
@@ -104,7 +107,7 @@ main{
     margin:40px 0;
 }
 
-form label ,form p {
+form label ,form legend {
     display: block;
     font-size: 20px;
     margin:  0 0 10px;
@@ -118,3 +121,103 @@ form label ,form p {
 .checkbox{
     margin: 20px 0;
 }
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight:bold;
+    font-size: 17px;
+    border:none;
+    border-radius: 7px;
+    transition: 1s all;
+    cursor: pointer;
+}
+.enviar:hover{
+    background:blue;
+    transform: scale(1.2) ;
+}
+.enviar:active{
+    font-size: 23px;
+}
+
+table{
+    margin: 20px 0 40px;
+}
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+td {
+    border: 3px solid #000000;
+    padding:8px 15px ;
+}
+
+/* css da home */
+
+
+
+section {
+/*     background: #bbbbbb;
+ */    font-weight: bold;
+}
+
+section p{
+    text-align: center; 
+} 
+
+section h1,h2{
+    text-align: center; 
+    font-size: 30px;
+   
+    color: white;
+    font-weight: bold;
+}
+
+.Principais{
+    text-align: center; 
+    font-size: 30px;
+    padding: 20px 18px;
+    display: inline-block;
+}
+.item strong{
+    color: #ffffff;
+}
+
+
+ .tipo {
+     display:inline-block
+ }
+
+
+ .imagem2{
+    width: 431px;
+    height: 630px;
+    margin: 0 20px 20px 0;
+    float: left;
+    clear: left;
+
+ }
+
+
+ul li{
+   padding: 10px 0px;
+  
+}
+
+.pe{
+padding: 10px 10px;
+margin: 1px 0px 0px 0px;
+
+}
+.imagem3{
+ position: absolute;
+ left: 65%;
+ top: 104%;
+}
+
+

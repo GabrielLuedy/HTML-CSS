@@ -13,7 +13,7 @@
 <body>
     <header>
         <div class=caixa>
-            <h1> <img src="imeg/pergaminho.jpg"> </h1>
+            <h1> <img src="imeg/pergaminho.jpg" alt="Logo da empresa"> </h1>
             <nav>
                 <ul class="navegacao">
                     <li><a href="index.html">home</a></li>
@@ -26,34 +26,69 @@
     <main>
         <form>
             <label for="nomesbrenome">Nome e SobreNome</label>
-            <input type="text" id="nomesbrenome" class="input-padrao">
+            <input type="text" id="nomesbrenome" class="input-padrao" required placeholder="gabriel luedy">
 
             <lebel for="email">Email</lebel>
-            <input type="text" id="email" class="input-padrao">
+            <input type="email" id="email" class="input-padrao" required placeholder="gabriel@hotmail.com">
 
             <label for="telefone">Telefone</label>
-            <input type="text" id="telefone" class="input-padrao">
+            <input type="tel" id="telefone" class="input-padrao" required placeholder="(13)99743-4077">
 
             <label for="mensagen">Mensagen</label>
 
-            <textarea cols="70" rows="10" id="mensagen" class="input-padrao"></textarea>
-            <div>
-                <p>Como prefere o nosso contato</p>
+            <textarea cols="70" rows="10" id="mensagen" class="input-padrao" required
+                placeholder="sugestoes e criticas "></textarea>
+            <fieldset>
+                <legend>Como prefere o nosso contato</legend>
 
                 <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
-                
 
-                <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
-                
 
-                <label for="radio-whatsaap"><input type="radio" name="contato" value="whatsaap" id="radio-whatsaap">Whatsaap</label>
-                
-            </div>
-            <label class="checkbox
-            "><input type="checkbox"> Gostaria de receber nossas novidade por e-mail?</label>
+                <label for="radio-telefone"><input type="radio" name="contato" value="telefone"
+                        id="radio-telefone">Telefone</label>
 
-            <input type="submit" value="Enviar formulário">
+
+                <label for="radio-whatsaap"><input type="radio" name="contato" value="whatsaap" id="radio-whatsaap"
+                        checked>Whatsaap</label>
+            </fieldset>
+            <fieldset>
+                <legend>Qual horario para contato?</legend>
+                <select>
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+            </fieldset>
+
+            <label class="checkbox "><input type="checkbox" checked> Gostaria de receber nossas novidade por
+                e-mail?</label>
+
+            <input type="submit" value="Enviar formulário" class="enviar">
         </form>
+        <table>
+            <thead>
+                <tr>
+
+                    <th>Dia e Horário de Monitoramento</th>
+
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>segunda </td>
+                    <td>8H ~ 20H</td>
+                </tr>
+                <tr>
+                    <td>Quanta</td>
+                    <td>8H ~ 20H</td>
+                </tr>
+                <tr>
+                    <td>Sexta</td>
+                    <td>8H ~ 20H</td>
+                </tr>
+            </tbody>
+        </table>
     </main>
     <footer>
         <p>Poesia e arte </p>
